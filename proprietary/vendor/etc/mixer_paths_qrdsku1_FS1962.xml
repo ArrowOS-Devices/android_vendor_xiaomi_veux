@@ -276,12 +276,12 @@
     <!-- RT Proxy Cal end -->
 
     <!-- Incall Recording -->
-    <ctl name="MultiMedia9 Mixer VOC_REC_UL" value="0" />
-    <ctl name="MultiMedia9 Mixer VOC_REC_DL" value="0" />
-    <ctl name="MultiMedia8 Mixer VOC_REC_UL" value="0" />
-    <ctl name="MultiMedia8 Mixer VOC_REC_DL" value="0" />
     <ctl name="MultiMedia1 Mixer VOC_REC_UL" value="0" />
     <ctl name="MultiMedia1 Mixer VOC_REC_DL" value="0" />
+    <ctl name="MultiMedia8 Mixer VOC_REC_UL" value="0" />
+    <ctl name="MultiMedia8 Mixer VOC_REC_DL" value="0" />
+    <ctl name="MultiMedia9 Mixer VOC_REC_UL" value="0" />
+    <ctl name="MultiMedia9 Mixer VOC_REC_DL" value="0" />
     <!-- Incall Recording End -->
 
     <!-- Incall Music -->
@@ -289,8 +289,8 @@
     <ctl name="Incall_Music Audio Mixer MultiMedia9" value="0" />
     <!-- Add by wzg for MIUI sos function 20191127 start -->
     <ctl name="Incall_Music Audio Mixer MultiMedia1" value="0" />
-    <ctl name="Incall_Music_2 Audio Mixer MultiMedia2" value="0" />
     <ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="0" />
+    <ctl name="Incall_Music_2 Audio Mixer MultiMedia2" value="0" />
     <ctl name="Incall_Music_2 Audio Mixer MultiMedia1" value="0" />
     <!-- Add by wzg for MIUI sos function 20191127 end -->
     <!-- Incall Music End -->
@@ -2414,6 +2414,7 @@
     <path name="incall-rec-uplink-compress headset-mic">
         <path name="incall-rec-uplink-compress" />
     </path>
+
     <path name="incall-rec-uplink-compress">
         <ctl name="MultiMedia8 Mixer VOC_REC_UL" value="1" />
     </path>
@@ -2441,6 +2442,7 @@
     <path name="incall-rec-uplink-compress headset-mic">
         <path name="incall-rec-uplink-compress" />
     </path>
+
 
     <path name="incall-rec-downlink">
         <ctl name="MultiMedia9 Mixer VOC_REC_DL"  value="1" />
